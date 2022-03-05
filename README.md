@@ -34,11 +34,11 @@ THEN I am able to successfully create, update, and delete data in my database
 
 The following screenshot shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./assets/E-com -Products.png)
+![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./assets/E-com-Products.png)
 
 The following screenshot shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./assets/E-com- productid.png)
+![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./assets/E-com-productid.png)
 
 ### Walkthrough video 
 
