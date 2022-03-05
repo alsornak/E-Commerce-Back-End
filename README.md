@@ -7,17 +7,16 @@ Internet retail, also known as **e-commerce**, is the largest sector of the elec
 Task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
 
-## **Table of contents**
+## Table of contents
 
-- [E-Commerce Backend](#e-commerce-backend)
-  * [User Story](#user-story)
-  * [Acceptance Criteria](#Acceptance-Criteria)
-  * [Getting Started](#Getting-Started)
-  * [Mock-Up](#Mock-Up)
-  * [Walkthrough videos](#Walkthrough-video)
-  * [Database Models](#Database-Models)
-  * [Technologies Use](#Technologies-Use)
-  * [Contributor](#Contributor)
+* [User Story](#user-story)
+* [Acceptance Criteria](#Acceptance-Criteria)
+* [Getting Started](#Getting-Started)
+* [Mock-Up](#Mock-Up)
+* [Walkthrough videos](#Walkthrough-video)
+* [Database Models](#Database-Models)
+* [Technologies Use](#Technologies-Use)
+* [Contributor](#Contributor)
 
 
 ## User Story
