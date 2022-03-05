@@ -6,6 +6,20 @@ Internet retail, also known as **e-commerce**, is the largest sector of the elec
 
 Task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
+
+## **Table of contents**
+
+- [E-Commerce Backend](#e-commerce-backend)
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#Acceptance-Criteria)
+  * [Getting Started](#Getting-Started)
+  * [Mock-Up](#Mock-Up)
+  * [Walkthrough videos](#Walkthrough-video)
+  * [Database Models](#Database-Models)
+  * [Technologies Use](#Technologies-Use)
+  * [Contributor](#Contributor)
+
+
 ## User Story
 
 ```md
@@ -30,27 +44,32 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Mock-Up
-
-The following screenshot shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
-
-(./assets/E-com-Products.png)
-
-The following screenshot shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
-
-(./assets/E-com-productid.png)
-
-### Walkthrough video 
-
-Demonstrate the GET, POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
-
 ## Getting Started
 
 You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
 Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands. Use environment variables to store sensitive data like your MySQL username, password, and database name.
 
-### Database Models
+
+## Mock-Up
+
+The following screenshot shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+
+![](./assets/E-com-Products.png)
+
+The following screenshot shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+
+![](./assets/E-com-productid.png)
+
+
+## Walkthrough video 
+
+Demonstrate the GET, POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+The following video shows an example of the application being used from the command line: 
+### <a href="https://drive.google.com/file/d/1tzLqdV3KWVEUNaCy3eCh_I0rdGZs5vK-/view?usp=sharing">Video Link</a>
+
+
+## Database Models
 
 Your database should contain the following four models, including the requirements listed for each model:
 
@@ -158,3 +177,13 @@ Your database should contain the following four models, including the requiremen
 ### Sync Sequelize to the Database on Server Start
 
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
+
+## Technologies Use
+* [**Node.js**](https://nodejs.org/en/about/)
+*  - [Sequelize](https://www.npmjs.com/package/sequelize)
+*  - [Express.js](https://www.npmjs.com/package/express)
+* [**Visual Studio Code**](https://code.visualstudio.com/)
+
+## Contributor
+Sorna Kesavan ©2022 All Rights Reserved.
+- - -
